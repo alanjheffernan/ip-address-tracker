@@ -33,7 +33,7 @@ function Search() {
     fetchIP();
 }, []);
   return (
-      <section className="flex flex-col items-center px-8">
+      <section className="flex flex-col items-center px-8 sm:max-w-[600px] sm:m-auto">
         <h1 className="py-6 text-[32px] font-medium text-white">
           IP Address Tracker
         </h1>
